@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    pointsfeed (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (0.8.0)
+      multipart-post (~> 1.1)
+    hashie (1.2.0)
+    json (1.7.3)
+    multipart-post (1.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  faraday
+  hashie
+  json
+  pointsfeed!

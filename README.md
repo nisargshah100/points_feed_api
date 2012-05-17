@@ -29,3 +29,5 @@ PointsFeed.text_post(msg)
 PointsFeed.image_post(link, comment)
 PointsFeed.link_post(link, comment)
 PointsFeed.refeed(id)
+
+```

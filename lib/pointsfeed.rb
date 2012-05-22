@@ -10,7 +10,7 @@ module Pointsfeed
     attr_accessor :token
   end
 
-  @connection = Faraday.new(:url => 'http://localhost:3000/api/')
+  @connection = Faraday.new(:url => 'http://api.pointsfeed.in/')
   @config = Config.new
 
   def configure
